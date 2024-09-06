@@ -2,6 +2,7 @@ import { Module } from "@nestjs/common";
 import { OrderModule } from "./order/order.module";
 import { RoomModule } from "./room/room.module";
 import { CustomerModule } from "./customer/customer.module";
+import { SystemModule } from "./system/system.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -17,6 +18,7 @@ import { ApolloDriver, ApolloDriverConfig } from "@nestjs/apollo";
     OrderModule,
     RoomModule,
     CustomerModule,
+    SystemModule,
     HealthModule,
     PrismaModule,
     SecretsManagerModule,
